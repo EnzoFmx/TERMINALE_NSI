@@ -58,7 +58,7 @@ def creer_jeu():
         val = random.randint(0,len(val_carte)-1)
         col = random.randint(0,len(col_carte)-1)
         carte = (val_carte[val],col_carte[col])
-        if in_file(carte,f1) == False or in_file(carte,f2) == False  :
+        if in_file(carte,f1) == False and in_file(carte,f2) == False  :
             if i%2 == 0 :
                 f1.enfile(carte)
             else :
