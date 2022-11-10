@@ -8,7 +8,7 @@ Une fois la classe de notre arbre crée nous allons écrire quelques fonctions/i
 
 Ecrire les instructions permettant de créer ces arbres ci-dessous :
 
-![](Z:/Mon Drive/05_COURS/TERMINALE_NSI/05_Arbres/images/arbre_tp.png)
+![](../images/arbre_tp.png)
 
 ### 2. Arbres dits "Peigne droit" 
 
