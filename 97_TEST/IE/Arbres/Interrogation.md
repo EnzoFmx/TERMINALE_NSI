@@ -34,4 +34,4 @@ class Arbre :
 
 4. Parmi les arbres suivants les quels sont des ABR ? 
 
-   ![](./Dessin sans titre.png)
+   ![](./Image/Dessin sans titre.png)
