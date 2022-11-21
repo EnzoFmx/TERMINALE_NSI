@@ -1,6 +1,6 @@
 class Arbre :
     """Classe Arbre, permettant de créer des arbres binaire"""
-    def __init__(self,valeur,fils_gauche=None,fils_droit=None):
+    def __init__(self,valeur=None,fils_gauche=None,fils_droit=None):
         """
         Méthode constructeur permettant de créer un arbre
         param valeur : (int/str) Valeur du noeud
@@ -22,8 +22,8 @@ class Arbre :
         else :
             return max(1+self.fils_gauche.taille(),1+self.fils_droit.taille())
         
-        def profondeur(self):
-            return self.hauteur()-1
+    def profondeur(self):
+        return self.hauteur()-1
         
 def est_dans_arbre(arb,val):
     if arb.valeur == val :
