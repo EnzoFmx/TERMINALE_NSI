@@ -21,10 +21,12 @@ class Arbre :
             return 0
         else :
             return max(1+self.fils_gauche.taille(),1+self.fils_droit.taille())
-        
+
     def profondeur(self):
         return self.hauteur()-1
-        
+    def est_feuille(self):
+        return self.fils_droit.valeur == None and self.fils_gauche.valeur == None
+
 def est_dans_arbre(arb,val):
     if arb.valeur == val :
         return True
@@ -32,7 +34,7 @@ def est_dans_arbre(arb,val):
         return False
     else :
         return est_dans_arbre(arb.fils_gauche,val) or est_dans_arbre(arb.fils_droit,val)
-    
+
 
 arbre1 = Arbre(1,Arbre(12,None,None),Arbre(123,None,None))
 arbre2 = Arbre("C",None,Arbre("A",None,Arbre("B",None,Arbre("E",None,None))))
@@ -57,8 +59,8 @@ def est_peigne_droit(a: Arbre):
         return True
     else :
         return True and est_peigne_droit(a.fils_droit)
-    
-    
+
+
 # Test des fonctions
 
 a = Arbre(12,Arbre(12,Arbre(None,None,None),Arbre(None,None,None)),Arbre(12,Arbre(None,None,None),Arbre(12,Arbre(None,None,None),Arbre(None,None,None))))
@@ -70,4 +72,3 @@ print('123 est dans l\'arbre ?',est_dans_arbre(a,123))
 b = peigne_droit(6)
 print('l\'arbre b est peigne droit ?',est_peigne_droit(b))
 
-    
