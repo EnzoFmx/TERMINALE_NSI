@@ -26,6 +26,7 @@ class Arbre :
         return self.hauteur()-1
     def est_feuille(self):
         return self.fils_droit.valeur == None and self.fils_gauche.valeur == None
+    
 
 def est_dans_arbre(arb,val):
     if arb.valeur == val :

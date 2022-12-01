@@ -20,3 +20,14 @@ def parcours_profondeur(arbre):
         parcours_profondeur(arbre.fils_gauche)
     if arbre.fils_droit.valeur != None :
         parcours_profondeur(arbre.fils_droit)
+        
+# Cet arbre fonctionne avec le parcours en largeur et pronfondeur        
+a = Arbre('A',Arbre('B',Arbre('C',Arbre('D',Arbre('E',Arbre('F',Arbre(),Arbre()),Arbre()),Arbre()),Arbre()),Arbre()),Arbre())
+
+# Avec des arbres complets :
+# Profondeur 
+a2 = Arbre('A',Arbre('B',Arbre('C',Arbre(),Arbre()),Arbre('D',Arbre(),Arbre())),\
+           Arbre('E',Arbre('F',Arbre(),Arbre()),Arbre('G',Arbre(),Arbre())))
+# Largeur
+a3 = Arbre('A',Arbre('B',Arbre('D',Arbre(),Arbre()),Arbre('E',Arbre(),Arbre())),\
+           Arbre('C',Arbre('F',Arbre(),Arbre()),Arbre('G',Arbre(),Arbre())))
