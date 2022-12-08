@@ -15,4 +15,16 @@ def ajout_element_dans_abr(element,arbre) :
         else :
             arbre.fils_droit = Arbre(element,Arbre(),Arbre())
 
+def recherche_element_dans_ABR(element,arbre):
+    """Fonction de recherche d'élément dans un ABR"""
+    if element == arbre.valeur :
+        return True
+    elif element <= arbre.valeur :
+        if arbre.fils_gauche.valeur != None :
+            recherche_element_dans_ABR(element,arbre.fils_gauche)
+    elif element > arbre.valeur :
+        if arbre.fils_gauche.valeur != None :
+            recherche_element_dans_ABR(element,arbre.fils_droit)
+    return False
+    
 
