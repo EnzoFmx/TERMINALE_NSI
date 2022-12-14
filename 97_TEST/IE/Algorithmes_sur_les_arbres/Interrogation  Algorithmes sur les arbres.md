@@ -2,13 +2,13 @@
 
 Voici deux arbres :
 
-1. Appliquer le parcours en largeur et en longueur sur ces arbres. (2pts)
+1. Appliquer le parcours en largeur et en profondeur sur ces arbres. (2pts)
 
 <u>Implémentation :</u>
 
 2. Nous utilisons une file pour l'implémentation d'un des deux parcours, le quel ? Et pourquoi? (1pt)
 
-Bonus. Le quel des deux parcours permet de retrouver une valeur proche en premier? Pourquoi?
+Bonus. Le	quel des deux parcours permet de retrouver une valeur proche en premier? Pourquoi?
 
 <u>Voici un algorithme :</u> 
 
@@ -24,12 +24,12 @@ def mystere(arbre):
 def ajoute_element(element,arbre) :
     if ................ :
         if .................... != None :
-            algo2(element,....................)
+            ajoute_element(element,....................)
         else :
             .................... = Arbre(element,Arbre(),Arbre())
     else :
         if .................... != None :
-            algo2(element,....................)
+            ajoute_element(element,....................)
         else :
             .................... = Arbre(element,Arbre(),Arbre())
 ```
