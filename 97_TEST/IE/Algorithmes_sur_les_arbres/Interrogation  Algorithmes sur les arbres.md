@@ -1,5 +1,7 @@
 # Interrogation : Algorithmes sur les arbres
 
+![](img.jpg)
+
 Voici deux arbres :
 
 1. Appliquer le parcours en largeur et en profondeur sur ces arbres. (2pts)
