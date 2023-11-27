@@ -23,7 +23,7 @@ Modéliser les informations sur les département français. Chaque données doit
 
 ## Exercice 4 :
 
-On considère deux relations R(<u>a</u> : int, b : int, c : int) et S(<u>#a : int, e : int</u>). l'attribut a de S est clé étrangère faisant référence à a de R.
+On considère deux relations R(<u>**a**</u> : int, b : int, c : int) et S(#a : int, **<u>e**</u> : int). l'attribut a de S est clé étrangère faisant référence à a de R. (Les clés primaire sont en **gras**)
 
 Dire si les affirmations suivantes sont vraies ou fausses, en justifiant :
 
