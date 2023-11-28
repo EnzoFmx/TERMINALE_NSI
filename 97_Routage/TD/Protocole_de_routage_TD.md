@@ -45,7 +45,7 @@ Le protocole OSPF lui se base sur les bandes passantes entre chaque routeur, aut
 
 Calcul du coût : 10**8 / Débit
 
-Exemple : Un débit de 100 o/s => 10\*\*8 / 100 => 10\*\*6 comme coût
+Exemple : Un débit de 100 b/s => 10\*\*8 / 100 => 10\*\*6 comme coût
 
 <u>Voici un réseau comportant 8 routeurs :</u>
 
@@ -69,7 +69,7 @@ Nous supposerons que pour chaque type connexion le débit est :
 
 Nous supposerons maintenant que pour chaque type connexion le débit est :
 
-- Ethernet (Vert) => 10 Mb/s
+- Ethernet (Bleu) => 10 Mb/s
 - Fast Ethernet  (Rouge) => 1 Gb/s
 - Fibre Optique (Vert) => 10 Gb/s
 
