@@ -1,4 +1,4 @@
-# Dossier : 07 SQL SGBD
+# Dossier : 07 Sql
  
  ## Contenu du dossier : 
 - 01 SGBD [01 SGBD](./01_SGBD)

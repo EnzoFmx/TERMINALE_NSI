@@ -6,7 +6,7 @@ Tout projet doit **obligatoirement** être écrit en POO (avec classes), ces cla
 
 Il s'agit ici de dessiner une avenue avec le module Turtle en suivant le modèle ci-dessous :
 
-![](./Images/Modelises_ton_avenue_exemple.jpg)
+![](./Images/Modelises_ton_avenue_exemple.png)
 
 Ce qu'il faut savoir :
 
