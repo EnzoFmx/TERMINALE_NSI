@@ -24,7 +24,7 @@ Il faut écrire les parcours dans un nouveau fichier et importer les fichiers di
 
 ## 1. Parcours en largeur
 
-L'implémentation du parcours en largeur se fait en itératif (pas de récursivité !!). Afin de savoir quel sommet est à parcourir on utilise une **file**.
+L'implémentation du parcours en largeur se fait en itératif. Afin de savoir quel sommet est à parcourir on utilise une **file**.
 
 Explication brève du parcours :
 
