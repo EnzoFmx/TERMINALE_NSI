@@ -9,6 +9,20 @@ class Arbre :
         self.valeur = valeur
         self.fils_droit = fils_droit
         self.fils_gauche = fils_gauche
+    
+    def taille(self):
+        """Permet de renvoyer la taille de l'arbre
+        Returns:
+            int: Taille de l'arbre
+        """
+        if self.fils_droit == None and self.fils_gauche == None :
+            return 1
+        elif self.fils_droit == None :
+            return 1 + self.fils_gauche.taille()
+        elif self.fils_gauche == None :
+            return 1 + self.fils_droit.taille()
+        else :
+            return 1 + self.fils_gauche.taille()+self.fils_droit.taille()
         
     def hauteur(self):
         """Permet de renvoyer la hauteur de l'arbre

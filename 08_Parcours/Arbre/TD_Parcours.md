@@ -10,4 +10,7 @@ Pour les deux arbres ci-dessous déterminer l'ordre des sommets traversés en la
 
 <u>Arbre 2 :</u> 
 
-![](./Images/Arbres3.png)
+![](./Images/Arbres3.png) 
+
+
+

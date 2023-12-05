@@ -62,6 +62,3 @@ Le parcours **postfixe** permet lui d'agir dans cet ordre :
 - La racine
 
 > Ce qui donne ici : NO J F P Q K G D B R S L H T U M I E C A 
-
-
-
