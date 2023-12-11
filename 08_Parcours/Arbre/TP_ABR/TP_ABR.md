@@ -34,7 +34,7 @@ L'insertion d'élément dans un arbre se fait de manière récursive. Lorsque l'
 ```python
 # Algorithme en pseudo-code :
 def ajout_element_dans_abr(element,arbre) :
-    # Si l'élément est inférieur à la valeur de l'arbre :
+    # Si l'élément est inférieur ou égal à la valeur de l'arbre :
     	#On vérifie si le sous arbre gauche existe
         	# Si oui => On applique l'algo à ce sous arbre
             # On ajoute la valeur sinon
@@ -55,8 +55,3 @@ Lorsqu'on tombe sur un arbre vide sans avoir trouvé la valeur. On considère qu
 Ecrire les deux algorithmes du dessus. Puis les appliquer sur des ABR.
 
 Afficher les résultats des différents tests. (Concluants ou non)
-
- 
-
-
-

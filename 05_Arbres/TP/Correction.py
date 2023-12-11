@@ -45,7 +45,7 @@ class Arbre :
         """
         return self.hauteur()-1
     
-    def est_dans_larbre(self,v):
+    def est_dans_arbre(self,v):
         """Permet de savoir si une valeur v est dans l'arbre
         Args:
             v (int): valeur a retrouver dans l'arbre
@@ -56,12 +56,22 @@ class Arbre :
         if self.fils_droit == None and self.fils_gauche == None :
             return self.valeur == v
         elif self.fils_droit == None :
-            return self.valeur == v or self.fils_gauche.est_dans_larbre(v)
+            return self.valeur == v or self.fils_gauche.est_dans_arbre(v)
         elif self.fils_gauche == None :
-            return self.valeur == v or self.fils_droite.est_dans_larbre(v)
+            return self.valeur == v or self.fils_droit.est_dans_arbre(v)
         else :
-            return self.valeur == v or self.fils_droite.est_dans_larbre(v) or self.fils_gauche.est_dans_larbre(v)
-    
+            return self.valeur == v or self.fils_droit.est_dans_arbre(v) or self.fils_gauche.est_dans_arbre(v)
+
+    def __repr__(self):
+       """Return a string which when eval'ed will rebuild tree"""
+
+       return '{}({}, {}, {})'.format(
+                 self.__class__.__name__,
+                 repr(self.valeur),
+                 repr(self.fils_gauche) if self.fils_gauche else None,
+                 repr(self.fils_droit) if self.fils_droit else None) \
+                      .replace(', None, None)', ')') \
+                      .replace(', None)', ')')
 
 def arbre_peigne_droit(h):
     """Fonction permettant de créer un arbre dit "peigne droit" ("branche" ici)
@@ -126,11 +136,11 @@ def est_parfait(a):
 a = Arbre(12,Arbre(12,None,None),Arbre(12,None,Arbre(12,None,None)))
 print('Taille de l\'arbre a',a.taille())
 print('Hauteur de l\'arbre a',a.hauteur())
-print('12 est dans l\'arbre ?',est_dans_arbre(a,12))
-print('123 est dans l\'arbre ?',est_dans_arbre(a,123))
+print('12 est dans l\'arbre ?',a.est_dans_arbre(12))
+print('123 est dans l\'arbre ?',a.est_dans_arbre(123))
 
-b = peigne_droit(6)
-print('l\'arbre b est peigne droit ?',est_peigne_droit(b))
+b = arbre_peigne_droit(6)
+print('l\'arbre b est peigne droit ?',est_arbre_peigne_droit(b))
 
 c = arbre_parfait(6)
 print('l\'arbre b est parfait ?',est_parfait(c))
