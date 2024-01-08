@@ -49,10 +49,10 @@ Il faut gérer ici, les possibles cycles des graphes.
 
 ## 3. Présence d'un cycle :
 
-A la différence d'un arbre, un graphe peut avoir des cycles. On parle d'un cycle lorsque lors d'un parcours du graphe, un sommet est visité au moins deux fois.
+A la différence d'un arbre, un graphe peut avoir des cycles. On parle d'un cycle lorsque lors d'un parcours  en profondeur du graphe, un sommet est visité au moins deux fois.
 
 ```
-Lors du parcours d'un graphe :
+Lors du parcours en profondeur d'un graphe :
 	- Si le noeud à visiter est dans les noeuds déjà visités :
 		Retourner Vrai
 Retourner Faux	
