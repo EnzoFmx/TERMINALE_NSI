@@ -10,6 +10,6 @@
 - 06 Graphes [06 Graphes](./06_Graphes)
 - 07 Sql [07 Sql](./07_Sql)
 - 08 Algorithmes sur arbres graphes [08 Algorithmes sur arbres graphes](./08_Algorithmes_sur_arbres_graphes)
-- 97 Routage [97 Routage](./97_Routage)
+- 09 Routage [09 Routage](./09_Routage)
 - 98 FICHE OUTILS [98 FICHE OUTILS](./98_FICHE_OUTILS)
 - 99 RAPPEL PREMIERE [99 RAPPEL PREMIERE](./99_RAPPEL_PREMIERE)
