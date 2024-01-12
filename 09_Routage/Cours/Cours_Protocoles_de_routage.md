@@ -41,9 +41,9 @@ Afin de représenter les réseaux nous utiliserons les graphes :
 
 ## 4. Premier protocole : RIP
 
-Le protocole RIP est un protocole à vecteurs de distance c'est à dire qu'il n'y a pas une connaissance globale du réseau. Chaque routeur possède une table de routage avec la distance qui le sépare des autres routeurs connus. Au démarrage, les routeurs construisent leur table grâce à l'envoi régulier des données de chaque table de routage. Chaque routeur recevant ces données met donc à jour sa table de routage pour la renvoyer ensuite. S'il dans une table de routage un chemin plus court est trouvé alors le routeur le met à jour.
+Le protocole RIP est un protocole à vecteurs de distance c'est à dire qu'il n'y a pas une connaissance globale du réseau. Chaque routeur possède une table de routage avec la distance qui le sépare des autres routeurs connus. Au démarrage, les routeurs construisent leur table grâce à l'envoi régulier des données de chaque table de routage. Chaque routeur recevant ces données met donc à jour sa table de routage pour la renvoyer ensuite. Si dans une table de routage un chemin plus court est trouvé alors le routeur le met à jour.
 
-Le protocole RIP compte au maximum 15 sauts, on ne peut donc pas relié un routeur situé à 17 sauts d'un autre avec RIP. De plus le protocole se base sur l'algorithme de Bellman-Ford pour déterminer le plus court chemin entre deux routeurs.
+Le protocole RIP compte au maximum 15 sauts, on ne peut donc pas relier un routeur situé à 17 sauts d'un autre avec RIP. De plus le protocole se base sur l'algorithme de Bellman-Ford pour déterminer le plus court chemin entre deux routeurs.
 
 <u>Reprenons ce réseau :</u> 
 
@@ -75,7 +75,7 @@ Le protocole RIP permet de calculer les chemins en fonction du nombre de routeur
 
 C'est pour palier à ce problème le protocole OSPF fut développé dans les années 1990 par l'IETF (Internet Engineering Task Force) et prend en compte la bande passante des liaisons. 
 
-Grâce au débit on calcul un coût qui sera déterminant dans la recherche du plus court chemin.
+Grâce au débit on calcule un coût qui sera déterminant dans la recherche du plus court chemin.
 
 On admettra que : 
 
