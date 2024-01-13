@@ -41,3 +41,29 @@ def presence_cycle_graphe(graphe,depart,deja_visite=set()) :
         else :
             presence_cycle_graphe(graphe,voisin,deja_visite)
     return False
+
+def plus_court_chemin(graphe, depart, arrive) :
+    """
+    Algorithme permettant de retrouver le plus court chemin entre deux sommets d'un graphe
+    return : (list) vide si pas de chemin, sinon contient les sommets parcourus.
+    """
+    f = File()
+    f.enfile(depart,[depart])
+    ensemble = set()
+    while f.est_vide() == False: 
+        noeud,chemin = f.defile()
+        """ Même chose détaillée :
+        tupl = f.defile
+        noeud = tupl[0]
+        chemin = tupl[0]
+        """
+        if noeud not in ensemble :
+            ensemble.add(n)
+            for voisin in graphe[n] :
+                if voisin not in ensemble :
+                    copie = chemin.copy()
+                    copie.append(voisin)
+                    f.enfile((voisin,copie))
+                    if voisin == arrive :
+                        return copie
+    return []
