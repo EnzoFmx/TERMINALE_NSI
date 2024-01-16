@@ -8,7 +8,7 @@ La complexité de ces algorithmes peuvent être très élevée.
 
 Il existe bien évidemment des méthodes pour réduire cette complexité, afin d'avoir des algorithmes plus performants.
 
-La méthode **diviser pour régner** permet de **décomposer** un problème en sous-problèmes. Une fois les sous-problèmes crées on les **résout** puis on **combine** les résultats de ces sous problème pour trouver le résultat final.
+La méthode **diviser pour régner** permet de **décomposer** un problème en sous-problèmes. Une fois les sous-problèmes créés on les **résout** puis on **combine** les résultats de ces sous problèmes pour trouver le résultat final.
 
 Le tout se fait de manière récursive. 
 
@@ -48,7 +48,7 @@ Afin d'appliquer la méthode, il faut dans un premier temps diviser le problème
 
 C'est pourquoi l'exemple de la recherche dichotomique n'est pas le meilleur, car il décompose le problème en 1 seul sous problème et pas en plusieurs.
 
-Mais peut importe, la décomposition à lieu lorsqu'on recherche soit dans la partie de droite ou de gauche.
+Mais peu importe, la décomposition à lieu lorsqu'on recherche soit dans la partie de droite ou de gauche.
 
 <u>**Résolution des sous problèmes :**</u>
 
