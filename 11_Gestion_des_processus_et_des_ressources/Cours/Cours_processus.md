@@ -20,7 +20,7 @@ Ces processus sont donc stocker dans une file (tout cela est géré par l'OS [Ra
 
 *Exemple de répartition de deux programmes par l'OS :*
 
-<img src="../Images/File d'execution.png" alt="File" style="width:50%;" />
+<img src="../Images/File_d_execution.png" alt="File" style="width:50%;" />
 
 ## 2. Gestion des processus 
 
