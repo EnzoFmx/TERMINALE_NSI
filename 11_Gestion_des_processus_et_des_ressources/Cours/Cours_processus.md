@@ -20,7 +20,7 @@ Ces processus sont donc stocker dans une file (tout cela est géré par l'OS [Ra
 
 *Exemple de répartition de deux programmes par l'OS :*
 
-<img src="../Images/File d'execution.png" alt="File" style="width:50%;" />
+<img src="https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif" alt="File" style="width:3000%;" />
 
 ## 2. Gestion des processus 
 
@@ -156,7 +156,7 @@ Chaque processus possèdent diverses informations stockées en mémoire (dans le
 Sous windows il est possible de voir les processus en cours d'exécution grâce au **gestionnaire de tâche**. Celui-ci est accessible grâce aux touches Ctrl+ Maj+Echap.
 Il suffit ensuite d'aller dans l'onglet détail et on obtient tous les processus.
 
-<img src="../Images/Liste_processus_windows.png" style="width:60%;" />
+<img src="https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif" alt="File" style="width:3000%;" />
 
 Nous retrouvons bien, l'**état**, le **PID**, la **mémoire occupée** 
 
