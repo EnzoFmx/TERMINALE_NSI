@@ -24,7 +24,7 @@ Ces processus sont donc stocker dans une file (tout cela est géré par l'OS [Ra
 
 ## 2. Gestion des processus 
 
-Nous l'avons vu chaque processus possèdent plusieurs informations. **L'état** d'un processus permet de comprendre comment la file d'exécution est créer et comment celle-ci perdure. 
+Nous l'avons vu chaque processus possèdent plusieurs informations. **L'état** d'un processus permet de comprendre comment la file d'exécution est créée et comment celle-ci perdure. 
 
 Il existe 3 états différent : 
 
