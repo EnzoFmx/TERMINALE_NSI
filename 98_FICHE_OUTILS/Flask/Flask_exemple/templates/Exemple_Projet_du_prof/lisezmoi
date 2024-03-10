@@ -1,0 +1,46 @@
+Frémeaux Enzo gp 15.
+
+>> Sélcteurs complexe :
+
+- header h1:hover = les éléments h1 passé sous le curseur de la souris appartenant a un header
+- tfoot td = élement td dans tfoot. 
+
+>>> Regles media queries : 
+
+1) lorsque width<600px et qu'on est en train de visionner.
+- Les titres ainsi que leur "icones" sont enlever
+- un nouveaux menu apparait il se situe en haut de la page et prend moins de place.
+- les images, les bas de pages sont enlever
+
+2) En mode impression:
+- Les menus dissparaissent
+- Tout est écrit en 30px afin de pouvoir avoir un texte lisible lors de l'impression.
+- pas de bas de page
+- Les titre d'entete sont en rouge, et non plus le "text-shadow"
+
+
+>>> Transitions Css : 
+
+- nav[class="1"]:hover : lorsque l'on passe le curseur sur le menu celui ci est "moins" a gauche et permet d'être afficher sur la page. Le la couleur du Background change aussi.
+-header h1:hover : simplement une translation du h1 avec un effet plus grand et tournée selon l'axe x. Le tout en instantané
+-img:hover : L'image tourne sur elle même en 2 sec.
+
+
+
+>>> Points particuliers :
+
+J'ai fait un tableau en ajoutant des liens sur les noms de jeux, l'idée du tfoot afin d'ajouter le gagnant du top 5 mis en valeur.
+Le Css est fait en sorte de distinguer chaque partie, les noms de jeux on des bordure differente de part leur liens, les element en tfoot aussi.
+
+J'ai crée deux menus, l'un qui est fixé a la page lorsque width>600px qui permet de changer de page a chaque instant, celui ci a une petite translation et changement de couleur quand on passe dessus.
+Le deuxieme menu quand a lui est très simple, situé en haut de page, il permet de rester simple et prendre peut d'espace lorsque width<600px.
+
+Quelques transformations, pour les titres en entête, et les images.
+
+Ce n'est pas très important mais seul les partie (Histoire du jeux vidéo, qu'est ce qu'un jeux vidéo et les description des evenement viennes d'internet) le reste est écrit de moi même.
+
+Le fond d'écran rappelant le thème des jeux vidéo, ainsi que le footer, qui lorsqu'on clique sur l'image renvoie vers une musique qui peux vous rappelez quelque souvenir si vous jouiez a mario. (Rien de très dur a faire mais, petite touche personnelle)
+
+
+
+ 

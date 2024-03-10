@@ -1,0 +1,149 @@
+body{
+  margin-left: 150px;
+  background-image: url(../images/Mario.jpg);
+  background-attachment: fixed;
+  background-position-y: -1300px;
+
+}
+
+time{
+  font-style:  oblique
+}
+article{
+
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: rgba(245,245,245,0.5);
+  border-width: 2px;
+  border-style:  solid ;
+  border-color: rgb(110,110,110)
+
+ }
+
+ strong{
+   font-size: 25px;
+ }
+
+ em{
+   font-style: italic;
+   color:blue;
+ }
+
+ h3{
+   background-image: url(../images/manette.png);
+     background-size: auto 100%;
+     background-repeat: no-repeat;
+     background-position: 10px 0px;
+    padding-left:  70px;
+   font-variant-caps: all-small-caps;
+   text-decoration: underline;
+   font-size: 28px;
+   color: red
+   
+     
+
+
+ }
+
+ nav[class="1"] {
+     display: block;
+     position: fixed;
+     background-color:  red;
+     width : 145px;
+     font-size: 20px;
+     padding-right: 20px;
+     top: 220px;
+     left :-150px;
+     border-width: 4px;
+     border-style:  double
+       
+
+   }
+ nav[class="1"]:hover{
+
+   left : -5px;
+   background-color: green;
+   transition-delay: .5s;
+   transition-duration: 1.5s
+  }
+ nav[class="2"]{
+   display: none
+ }
+ a{
+   color: black
+ }
+
+
+ @media screen and (max-width:600px){
+   h3{
+     display : none ;
+
+   }
+   body{
+   margin-left : 50px;}
+
+   
+   nav[class="2"]{
+ 	  display: block;
+     background-color: red;
+     font-size: 20px;
+     padding: 5px;
+     border-width: 4px;
+     border-style:  double;
+
+ }
+   img, figcaption, nav[class="1"], footer{
+     display : none
+   }
+  
+ }
+
+
+ @media print {
+   nav{
+     display: none;
+   }
+   body {
+     font-size: 30px;
+      margin: 0 auto;
+   }
+  figcaption, nav[class="1"], footer{
+     display : none
+   }
+ 
+  header h1 {
+    font-size: 30px;
+    color : red;
+    text-shadow: none;
+    margin-bottom: 0px
+   }
+ }
+header h1{
+  padding-left : 250px
+}
+
+
+
+
+footer p{
+  font-size: 20px;
+  color: black;
+  padding-left: 80%
+}
+
+img:hover{
+  transform: rotate(360deg);
+  transition-duration: 2s
+ }
+footer a:nth-child(2){
+  color: green;
+  font-style:  italic;
+  font-size: 18px;
+  background-color: rgba(12,12,12,0.7);    
+}
+
+h3{
+  
+}

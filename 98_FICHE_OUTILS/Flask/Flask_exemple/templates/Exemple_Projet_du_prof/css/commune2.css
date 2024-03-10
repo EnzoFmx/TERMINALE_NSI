@@ -1,0 +1,7 @@
+body{
+  margin-left: 150px;
+  background-image: url(../images/Mario.jpg);
+  background-attachment: fixed;
+  background-position-y: -1300px;
+
+}

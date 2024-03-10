@@ -1,0 +1,12 @@
+
+
+header{
+  padding: 50px;
+  color: cyan;
+  background-image: url(../images/Back.png);
+  background-position-y: -250px;
+  background-position-x: -500px;
+  text-shadow: 0px 0px 2px;
+  margin-bottom: 30px;
+ }
+
