@@ -1,5 +1,5 @@
 # Dossier : SQL
  
  ## Contenu du dossier : 
-- Exemple d idée de projet (Base de données).md [Exemple d idée de projet (Base de données).md](./Exemple_d_idée_de_projet_(Base_de_données).md)
-- Projet Interface et base de données.md [Projet Interface et base de données.md](./Projet_Interface_et_base_de_données.md)
+- Exemple d idÃ©e de projet (Base de donnÃ©es).md [Exemple d idÃ©e de projet (Base de donnÃ©es).md](./Exemple_d_idÃ©e_de_projet_(Base_de_donnÃ©es).md)
+- Projet Interface et base de donnÃ©es.md [Projet Interface et base de donnÃ©es.md](./Projet_Interface_et_base_de_donnÃ©es.md)
