@@ -16,4 +16,4 @@
 - 97 PROJET [97 PROJET](./97_PROJET)
 - 98 FICHE OUTILS [98 FICHE OUTILS](./98_FICHE_OUTILS)
 - 99 RAPPEL PREMIERE [99 RAPPEL PREMIERE](./99_RAPPEL_PREMIERE)
-- .DS Store [.DS Store](./.DS_Store)
+- .gitignore [.gitignore](./.gitignore)
