@@ -1,4 +1,4 @@
-# Dossier : 03 Listes-chainÃ©es
+# Dossier : 03 Listes-chainées
  
  ## Contenu du dossier : 
 - Cours [Cours](./Cours)
