@@ -17,7 +17,7 @@ Pour chacun des cas :
 
 ### 2. 1. Pyramide de nombres :
 
-<u>Pyramide de nombres :</u> Retrouver le chemin ayant la somme maximale des nombres parcourus.
+<u>Pyramide de nombres :</u> Retrouver la somme maximale en parcourant les nombres de la pyramide.
 
 ![image-20240404005435648](./Images/pyramide.png)
 
@@ -29,4 +29,4 @@ pyramide = [[3], [7,4], [2,4,6], [8,5,9,3]]
 
 ### 2. 2. Rendue de monnaie :
 
-<u>Problème du rendu de monnaie :</u> Comment à partir d'une somme et d'un ensemble de pièces/billets rendre le moins de pièces possibles. Les systèmes monétaires possibles peuvent être l'euro [50, 20, 10, 5, 2, 1] ou le un ancien système impérial britannique [30, 24, 12, 6, 3, 1]
+<u>Problème du rendu de monnaie :</u> Comment à partir d'une somme et d'un ensemble de pièces/billets rendre le moins de pièces possibles. Les systèmes monétaires possibles peuvent être l'euro [50, 20, 10, 5, 2, 1] ou l'ancien système impérial britannique [30, 24, 12, 6, 3, 1]
