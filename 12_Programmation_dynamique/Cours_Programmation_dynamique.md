@@ -29,7 +29,11 @@ Il existe pour la programmation dynamique deux méthodes, une méthode dite **as
 ### 3. 1. Méthode naïve :
 
 ```python
- 
+def fibo(n) :
+  if n in [0,1] :
+    return n
+  else:
+    return fibo(n-1)+fibo(n-2)
 ```
 
 Méthode classique, celle-ci permettra d'avoir les 1000 premières valeurs en peu de temps (et encore). Mais après cela demandera plusieurs minutes pour résoudre le problème. Mais pourquoi donc ?
@@ -49,7 +53,7 @@ Cela fait énormement d'appels de fonctions pour le 4ème élément de la suite.
 def dscFibonacci(n, dico):
     if n == 0 or n == 1:
         return n
-    if n in dico and dico[n] != 0 :
+    if n in dico :
         return dico[n]
     dico[n] = dscFibonacci(n - 1, dico) + dscFibonacci(n - 2, dico)
     return dico[n]
